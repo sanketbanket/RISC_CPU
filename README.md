@@ -2,7 +2,7 @@
 A 16 bit RISC CPU with a simple instruction set. Designed and implemented completely in 2 weeks. 
 Comes with modifyable size of memory as well as easy to implement on any FPGA board. 
 
-I have included a Assembler python script to convert assembly to the custom ISA machine code. You can then program a main memory with the machine code to run on the CPU.
+I have included a Assembler python script to convert assembly to the custom ISA machine code. You can then program a main memory with the machine code to run on the CPU. 
 
 ## How to use:
 By following the given ISA, program the main memory and then supply clock and enable and reset signals to the CPU and the memory.
@@ -12,6 +12,10 @@ The Project already comes with an assembly already made.
 To run a program please, activate RESET and then activate ENABLE after deactivating RESET to begin the execution.
 
 ## example assembly code : (Computes the first 10 fibonacci numbers)
+example script usage.
+```
+py ASSEMBLER.py assembly.txt machinecode.txt 
+```
 ```
 mov r0 #0
 mov r1 #1 
