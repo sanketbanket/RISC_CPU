@@ -4,6 +4,13 @@ Comes with modifyable size of memory as well as easy to implement on any FPGA bo
 
 I have included a Assembler python script to convert assembly to the custom ISA machine code. You can then program a main memory with the machine code to run on the CPU.
 
+## How to use:
+By following the given ISA, program the main memory and then supply clock and enable and reset signals to the CPU and the memory.
+
+The Project already comes with an assembly already made.
+
+To run a program please, activate RESET and then activate ENABLE after deactivating RESET to begin the execution.
+
 ## example assembly code : (Computes the first 10 fibonacci numbers)
 ```
 mov r0 #0
@@ -23,5 +30,9 @@ halt
 ```
 ### Basic Data Path Of the Processor
 ![image](https://github.com/user-attachments/assets/e0687f02-0461-484e-8678-6f4c3077efaa)
+### Instruction Set Architecture.   
+![image](https://github.com/user-attachments/assets/7cf6f3fa-bad1-45f6-80fb-a714acf76af3)
+
+
 
 
