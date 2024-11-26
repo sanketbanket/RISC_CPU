@@ -9,7 +9,7 @@ By following the given ISA, program the main memory and then supply clock and en
 
 The Project already comes with an assembly already made.
 
-To run a program please, activate RESET and then activate ENABLE after deactivating RESET to begin the execution.
+To run a program, activate RESET and then activate ENABLE after deactivating RESET to begin the execution.  (Unless you use a custom and a better written memory module)
 
 ## example assembly code : (Computes the first 10 fibonacci numbers)
 example script usage.
