@@ -1,6 +1,7 @@
 # RISC_CPU
 A 16 bit RISC CPU with a simple instruction set. Designed and implemented completely in 2 weeks. 
 Comes with modifyable size of memory as well as easy to implement on any FPGA board. 
+Included are 8 16bit general purpose registers. 
 
 I have included a Assembler python script to convert assembly to the custom ISA machine code. You can then program a main memory with the machine code to run on the CPU. 
 
